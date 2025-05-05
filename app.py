@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
@@ -68,5 +69,19 @@ def init_learners():
     return jsonify({'message': 'Initial learners added successfully'}), 200
 
 # Run the Flask app
+=======
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "My Flask App"
+
+@app.route('/about')
+def about():
+    return "Hello, I'm Safia"
+
+>>>>>>> f1f1028ac695e41d504e107df9458012cbed5aa8
 if __name__ == '__main__':
     app.run(debug=True)

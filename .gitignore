@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 "venv/" 
 "__pycache__/" 
 "*.db"   # This will ignore your database file
+=======
+__pycache__/
+*.pyc
+.env
+venv/
+>>>>>>> f1f1028ac695e41d504e107df9458012cbed5aa8
