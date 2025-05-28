@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 version: '3.9'
+=======
+version: '3.8'
+>>>>>>> 7abf9c17a92c06a5bb5b735f9bb70616b299e5fb
 
 services:
   web:
     build: .
     ports:
+<<<<<<< HEAD
       - "8000:8000"
     volumes:
       - .:/code
+=======
+      - "5000:5000"
+>>>>>>> 7abf9c17a92c06a5bb5b735f9bb70616b299e5fb
