@@ -1,10 +1,48 @@
-<<<<<<< HEAD
-"venv/" 
-"__pycache__/" 
-"*.db"   # This will ignore your database file
-=======
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+env/
 venv/
->>>>>>> f1f1028ac695e41d504e107df9458012cbed5aa8
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+staticfiles/
+
+# VSCode
+.vscode/
+
+# macOS/Linux/Windows
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.db
+*.sock
+*.tar
+*.bak
+*.swp
+.dockerignore
+
+# Environment files
+.env
+
+# Virtual environments
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pycache
+**/__pycache__/
+
+# IDEs
+.idea/
+*.iml

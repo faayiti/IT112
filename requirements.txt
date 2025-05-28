@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Django>=4.0,<5.0
-=======
-Flask
->>>>>>> 7abf9c17a92c06a5bb5b735f9bb70616b299e5fb
