@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Games List</title>
+</head>
+<body>
+    <h1>Video Games</h1>
+    <ul>
+        {% for game in games %}
+            <li>
+                <a href="{% url 'game_detail' game.pk %}">{{ game.title }}</a> — {{ game.genre }} ({{ game.release_year }})
+            </li>
+        {% empty %}
+            <li>No games found.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
