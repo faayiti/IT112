@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+
+=======
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+staticfiles/
+
+# VSCode
+.vscode/
+
+# macOS/Linux/Windows
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.db
+*.sock
+*.tar
+*.bak
+*.swp
+.dockerignore
+
+# Environment files
+.env
+
+# Virtual environments
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pycache
+**/__pycache__/
+
+# IDEs
+.idea/
+*.iml
+>>>>>>> 25fdc67203d91020c137d588539dd90955daa92d
+db.sqlite3 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home/css/styles.css' %}">
+</head>
+<body>
+    <h1>
+        {% if user_name %}
+            Hello, {{ user_name }}!
+        {% else %}
+            Welcome, Guest!
+        {% endif %}
+    </h1>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <img src="{% static 'home/images/home_image.jpg' %}" alt="Home Image" style="max-width: 80%; height: auto;">
+    </div>
+</body>
+</html>
