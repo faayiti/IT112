@@ -50,3 +50,4 @@ venv.bak/
 .idea/
 *.iml
 >>>>>>> 25fdc67203d91020c137d588539dd90955daa92d
+db.sqlite3 
