@@ -1,0 +1,6 @@
+<h1>Beauty Items</h1>
+<ul>
+  {% for item in items %}
+    <li><a href="/{{ item.id }}/">{{ item.name }} - {{ item.brand }} - ${{ item.price }}</a></li>
+  {% endfor %}
+</ul>
